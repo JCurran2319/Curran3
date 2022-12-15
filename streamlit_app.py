@@ -1,4 +1,4 @@
-import pipreqs
+import pipreqs as pr
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
