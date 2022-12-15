@@ -1,6 +1,7 @@
-streamlit 
-pandas 
-matplotlib
+pip install pipreqs
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("Used_cars.csv")
 df = df.dropna()  # used this to make the data clean so, I got rid of the NA's
